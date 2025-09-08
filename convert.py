@@ -53,5 +53,5 @@ def convert_and_copy_recursive(source_root):
     print("✅ Done converting and copying all documents.")
 
 # 🔁 Use UNC path or map to a drive
-source_root = r"\\192.168.30.93\Service record-2"
+source_root = r"\\192.168.30.93\carl\Yna\Updateddocs"
 convert_and_copy_recursive(source_root)

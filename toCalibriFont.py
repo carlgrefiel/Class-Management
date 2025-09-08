@@ -44,7 +44,7 @@ def convert_folder_fonts_to_calibri_recursive(input_folder, output_folder):
                     print(f"❌ Failed to process {input_file_path}: {e}")
 
 # Example usage
-input_folder = r"\\192.168.30.93\carl\convertedDoc"
-output_folder = r"\\192.168.30.93\carl\convertedDoc\calibriFont"
+input_folder = r"\\192.168.30.93\carl\Yna\Updateddocs"
+output_folder = r"\\192.168.30.93\carl\convertedDoc\calibriFont\test"
 
 convert_folder_fonts_to_calibri_recursive(input_folder, output_folder)
